@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  
+  <title>Frontend Mentor | FAQ Accordion Card</title>
+
+</head>
+<body>
+  <div class="showcase">
+    <div class="container">
+      <div class="showcase-card">
+        <div class="img-bg">
+          <div class="img-desktop"></div>
+          <img class="img-mobile" src="images/illustration-woman-online-mobile.svg" alt="">
+        </div>
+        <div class="accordion">
+          <h1>FAQ</h1>
+          <div id="item-1" class="accordion-item">
+            <input type="radio" name="item" id="item-one" hidden />
+            <label for="item-one" class="content-title">How many team members can I invite?</label>
+            <div class="pop-content">
+              You can invite up to 2 additional users on the Free plan. There is no limit on 
+              team members for the Premium plan.
+            </div>
+          </div>
+
+          <div id="item-2" class="accordion-item">
+            <input type="radio" name="item" id="item-two" checked hidden />
+            <label for="item-two" class="content-title">What is the maximum file upload size?</label>
+            <div class="pop-content">
+              No more than 2GB. All files in your account must fit your allotted storage space.
+            </div>
+          </div>
+
+          <div id="item-3" class="accordion-item">
+            <input type="radio" name="item" id="item-three" hidden />
+            <label for="item-three" class="content-title">How do I reset my password?</label>
+              <div class="pop-content">
+                Click “Forgot password” from the login page or “Change password” from your profile page.
+                A reset link will be emailed to you.
+              </div>
+          </div>
+
+          <div id="item-4" class="accordion-item">
+            <input type="radio" name="item" id="item-four" hidden />
+            <label for="item-four" class="content-title">Can I cancel my subscription?</label>
+            <div class="pop-content">
+              Yes! Send us a message and we’ll process your request no questions asked.
+            </div>
+          </div>
+
+          <div id="item-5" class="accordion-item">
+            <input type="radio" name="item" id="item-five" hidden />
+            <label for="item-five" class="content-title">Do you provide additional support?</label>
+              <div class="pop-content">
+                Chat and email support is available 24/7. Phone lines are open during normal business hours.
+              </div>
+          </div>
+
+        </div>
+      </div>    
+    </div> 
+  </div>
+  <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+</body>
+</html>
