@@ -73,12 +73,17 @@ body{
                 padding-top: 15px;
                 border-bottom: 1px solid $divider-color;
 
+                input[type="radio"]{
+                    display: none;
+                }
+
                 .content-title{
                     position: relative;
                     display: block;
                     color:$text-color;
                     text-decoration: none;
                     cursor: pointer;
+                    padding-right: 25px;
 
                     &::after{
                         background: center url(../images/icon-arrow-down.svg) no-repeat;
@@ -100,7 +105,8 @@ body{
                 }
             }
 
-            &-item:hover{
+            &-item:hover,
+            &-item:focus-visible{
                 .content-title{
                     color: $title-hover;
                 };
